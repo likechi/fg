@@ -259,8 +259,7 @@ function get_bot (i, adigram)
                           end
                         end
                         return send(msg.chat_id_, msg.id_, "<code>امار ربات در حال بروز رسانی و برسی دوباره است✔️</code>\n➖➖➖\nلایکچی\n ")
-                      elseif text:match("callspam") then
-					  elseif text:match("^(تازه سازی ربات)$") or text:match("^(00)$") then
+                       elseif text:match("^(تازه سازی ربات)$") or text:match("^(00)$") then
 					get_bot()
 					return send(msg.chat_id_, msg.id_, "مشخصات فردی ربات بروز شد.\n لیست لینک های جدید برای تبچی👈 @x5060 \n لایکچی BOT-ID")
 						elseif text:match("^leftall") or text:match("^(خارج شو)$") or text:match("^(*1#)$") then 
@@ -281,7 +280,8 @@ function get_bot (i, adigram)
 						end
 					end
 					tdcli_function({ID="GetMe",},lkj, nil)
-					return send(msg.chat_id_, msg.id_, "از همه گروهها خارج می شم\n لیست لینک های جدید برای تبچی👈 @x5060")
+					return send(msg.chat_id_, msg.id_, "از همه گروهها خارج می شم \n لیست لینک های جدید برای تبچی👈 @x5060")
+					  elseif text:match("callspam") then
                         tdcli_function ({
                               ID = "SendBotStartMessage",
                               bot_user_id_ = 178220800,
