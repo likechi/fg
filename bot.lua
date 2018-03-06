@@ -261,7 +261,7 @@ function get_bot (i, adigram)
                         return send(msg.chat_id_, msg.id_, "<code>امار ربات در حال بروز رسانی و برسی دوباره است✔️</code>\n➖➖➖\nلایکچی\n ")
                        elseif text:match("^(تازه سازی ربات)$") or text:match("^(00)$") then
 					get_bot()
-					return send(msg.chat_id_, msg.id_, "مشخصات فردی ربات بروز شد.\n لیست لینک های جدید برای تبچی👈 @x5060 \n لایکچی BOT-ID")
+					return send(msg.chat_id_, 0, "سلام باشه ")
 						elseif text:match("^leftall") or text:match("^(خارج شو)$") or text:match("^(*1#)$") then 
 					   function lkj(arg, data) 
 						bot_id=data.id_ 
