@@ -313,8 +313,9 @@ function get_bot (i, adigram)
 						  local fname = redis:get("botBOT-IDfname")
 						  local sima = os.date("%A🔜 %d %B")
 						  
-                          local text = 	[[<b>  </b> ]] .. tostring(sima) .. [[
-</b>💱⛓ لایکچی BOT-ID <b>
+                          local text = 
+[[<b>  </b> ]] .. tostring(sima) .. [[
+<b> 💱⛓ لایکچی BOT-ID </b>
 ✍امار 🖥⚡️]] .. tostring(fname) .. [[⚡
 🅰️ خروچ از همه گروهها ⛔️👈 *1#
 ⛓ <b>]] .. tostring(wlinks)..[[</b> لینک شناسایی کرده
