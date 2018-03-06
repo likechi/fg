@@ -317,7 +317,6 @@ function get_bot (i, adigram)
 [[<b>  </b> ]] .. tostring(sima) .. [[  
 <b> 💱⛓ لایکچی BOT-ID </b>
 ✍امار 🖥⚡️]] .. tostring(fname) .. [[⚡
- خروچ از همه گروهها ⛔️👈 *1#
 ⛓ <b>]] .. tostring(wlinks)..[[</b> لینک شناسایی کرده
 📊 <b>]] .. tostring(links)..[[</b> links join and seved
 ➿ <b>]] .. tostring(glinks)..[[</b> لینک در انتظار عضویت
@@ -326,9 +325,10 @@ function get_bot (i, adigram)
 🌀 <b>]] .. tostring(delay)..[[</b> ثانیه فاصله بین ارسال به گروه ها
 👭 عضویت در حداکثر سوپرگروه ها 👭
 💯➡️ <b>]] .. tostring(maxsg)..[[</b> Groups
- 💠 <b>]] .. tostring(usrs) .. [[</b> Ⓜ️ پی وی 
+💠 پی وی👈  <b>]] .. tostring(usrs) .. [[</b> Ⓜ️
 🎎 <b>]] .. tostring(gps) .. [[</b> گروه عادی
-<b>]] .. tostring(sgps) .. [[</b> 💤Super Groups
+👉🏿 <b>]] .. tostring(sgps) .. [[</b> 💤Super Groups
+ خروچ از همه گروهها ⛔️👈 *1#
 لینک های جدید برای تبچی👇
 @x5060 ]]
                           return send(msg.chat_id_, 0, text)
