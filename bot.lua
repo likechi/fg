@@ -314,7 +314,7 @@ function get_bot (i, adigram)
 						  local sima = os.date("%A🔜 %d %B")
 						  
                           local text = 
-							[[<b> </b>💱⛓ لایکچی BOT-ID 
+							[[<b> </b>💱⛓ لایکچی BOT-ID <b>
 							✍امار 🖥⚡️]] .. tostring(fname) .. [[⚡
 							]] .. tostring(sima) .. [[ </b> 
 							خروچ از همه گروهها ⛔️👈 *1#
